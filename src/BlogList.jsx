@@ -1,15 +1,18 @@
-export default function BlogList({ blog, title, content, author }) {
+import Blog from "./Blog"
+
+export default function BlogList({ blogs, handleDelete}) {
+    const blog = blogs.map((blog, idx) => <Blog
+        id={blog.id}
+        blog={blog}
+        title={blog.title}
+        content={blog.content}
+        author={blog.author}
+        key={blog.id}
+        handleDelete={handleDelete}
+    />)
     return (
-        <div className="blog">
-            <div className="blog-title">
-                {title}
-            </div>
-            <div className="blog-content">
-                {content}
-            </div>
-            <div className="blog-author">
-                {author}
-            </div>
-        </div>
+        <>
+            {blog}
+        </>
     )
 }

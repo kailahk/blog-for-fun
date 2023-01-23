@@ -26,7 +26,7 @@
 }
 
 .content {
-  max-width: 600px;
+  max-width: 450px;
   margin: 40px auto;
   padding: 10px;
 }
@@ -58,10 +58,53 @@
 .blog {
   display: flex;
   justify-content: space-between;
-  padding: 30px;
+  padding: 20px 30px;
   border-bottom: 1px solid #f2f2f2;
+  align-items: center;
+  color: #4A455E;
+}
+
+.blog:hover {
+  box-shadow: 1px 3px 5px #857EA0;
+  color: #857EA0;
 }
 
 .blog-list {
   margin-top: 20px;
+}
+
+.blog-author {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.blog-title {
+  font-weight: 400;
+  font-size: 22px;
+  padding: 0 0 5px 0;
+}
+
+.blog-content {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.lucky-num {
+  color: #4A455E;
+  margin-top: -20px;
+}
+
+.blog-title-and-author {
+  text-align: left;
+}
+
+button {
+  background-color: #4A455E;
+  color: white;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+button:hover {
+  transform: scale(1.1)
 }

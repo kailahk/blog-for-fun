@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import BlogList from "./BlogList"
 
 export default function Home() {
@@ -7,18 +7,23 @@ export default function Home() {
         {title: 'second blog', content: 'lorem ipsum...', author: 'name', id: 2},
         {title: 'third blog', content: 'lorem ipsum...', author: 'name', id: 3},
     ])
-    const blogList = blogs.map((blog, idx) => <BlogList 
-        key={blog.id} 
-        blog={blog} 
-        title={blog.title} 
-        content={blog.content} 
-        author={blog.author}
-        /> )
+
+    const [luckyNum, setLuckyNum] = useState(0)
+
+    function handleDelete(id) {
+        const newBlogs = blogs.filter(blog => blog.id !== id);
+        setBlogs(newBlogs);
+    }
+
+    useEffect(() => {
+        setLuckyNum(Math.floor(Math.random() * (100 - 1 + 1) + 1))
+    }, []);
+    
     return(
         <div className="home">
-            <h6>Your lucky number is: {Math.floor(Math.random() * (100 - 1 + 1) + 1)}</h6>
+            <h6 className="lucky-num">Your lucky number is: {luckyNum}</h6>
             <div className="blog-list">
-                {blogList}
+                <BlogList blogs={blogs} setBlogs={setBlogs} handleDelete={handleDelete}/>
             </div>
         </div>
     )
