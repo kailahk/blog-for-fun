@@ -1,9 +1,12 @@
 
-export default function Navbar({title}) {
-    return(
+export default function Navbar({ title }) {
+    return (
         <nav className="navbar">
-            <a href="/">Home</a> |&nbsp;&nbsp;
-            <a href="/create">New Blog</a>
+            <h1>{title}</h1>
+            <div className="links">
+                <a href="/">Home</a>
+                <a href="/create">New Post</a>
+            </div>
         </nav>
     )
 }
