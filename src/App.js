@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
 
-function App() {
+export default function App() {
+  const title = 'Blog for Fun'
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <div className="content">
+        <h1>Welcome to <span className="title">{title}!</span></h1>
+        <h6>Your lucky number is: {Math.floor(Math.random() * (100 - 1 + 1) + 1)}</h6>
+      </div>
     </div>
   );
 }
-
-export default App;
