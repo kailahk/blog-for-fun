@@ -4,8 +4,8 @@ export default function Navbar({ title }) {
         <nav className="navbar">
             <h1>{title}</h1>
             <div className="links">
-                <a href="/">Home</a>
-                <a href="/create">New Post</a>
+                <a className="go-home" href="/">Home</a>
+                <a className="create-post" href="/create">New Post</a>
             </div>
         </nav>
     )
