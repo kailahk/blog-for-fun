@@ -1,7 +1,34 @@
 {
-    "blogs": [
-        {"title": "first blog", "content": "lorem ipsum...", "author": "name", "id": 1},
-        {"title": "second blog", "content": "lorem ipsum...", "author": "name", "id": 2},
-        {"title": "third blog", "content": "lorem ipsum...", "author": "name", "id": 3}
-    ]
+  "blogs": [
+    {
+      "title": "first blog",
+      "content": "lorem ipsum...",
+      "author": "name",
+      "id": 1
+    },
+    {
+      "title": "second blog",
+      "content": "lorem ipsum...",
+      "author": "name",
+      "id": 2
+    },
+    {
+      "title": "third blog",
+      "content": "lorem ipsum...",
+      "author": "name",
+      "id": 3
+    },
+    {
+      "title": "I love cats",
+      "content": "I really do",
+      "author": "kailah",
+      "id": 4
+    },
+    {
+      "title": "hi`",
+      "content": "testtest",
+      "author": "kailahk",
+      "id": 5
+    }
+  ]
 }

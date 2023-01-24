@@ -11,14 +11,17 @@
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #857ea047;
 }
+
 .navbar h1 {
   color: #4A455E;
 }
+
 .navbar .links {
   margin-left: auto;
 }
+
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
@@ -60,15 +63,16 @@
   justify-content: space-between;
   align-items: center;
   color: #4A455E;
+  border-bottom: 1px solid #857ea047;
 }
 
 .blog > a {
   display: flex;
   justify-content: space-between;
   padding: 20px 30px;
-  border-bottom: 1px solid #f2f2f2;
   align-items: center;
   color: #4A455E;
+  text-decoration: none;
 }
 
 .blog:hover {
@@ -146,4 +150,14 @@ button:hover {
 
 .create textarea {
   height: 250px
+}
+
+.add-post {
+  font-size: 15px;
+  padding: 10px 10px;
+  margin-top: 15px;
+}
+
+.delete-btn {
+  margin: 0 10px 0 0;
 }
