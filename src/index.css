@@ -95,9 +95,10 @@
   padding: 0 0 5px 0;
 }
 
-.blog-content {
+.blog-preview {
   font-weight: 400;
   font-size: 18px;
+  max-width: 150px;
 }
 
 .lucky-num {
@@ -107,7 +108,7 @@
 
 .blog-title-and-author {
   text-align: left;
-  width: 150px;
+  width: 250px;
 }
 
 button {

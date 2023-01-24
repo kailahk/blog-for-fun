@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-export default function Blog({title, author, id, content, handleDelete}) {
+export default function Blog({title, author, id, content}) {
 
     return(
         <div className="blog">
@@ -13,15 +13,10 @@ export default function Blog({title, author, id, content, handleDelete}) {
                 Written by {author}
             </div>
             </div>
-            <div className="blog-content">
+            <div className="blog-preview">
                 {content}
             </div>
             </Link>
-            <div className="button">
-                <button className="edit-btn">Edit</button>
-                &nbsp;&nbsp;
-                <button onClick={() => handleDelete(id)} className="delete-btn">Delete</button>
-            </div>
         </div>
     )
 }
