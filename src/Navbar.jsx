@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom"
 
 export default function Navbar({ title }) {
     return (
         <nav className="navbar">
             <h1>{title}</h1>
             <div className="links">
-                <a className="go-home" href="/">Home</a>
-                <a className="create-post" href="/create">New Post</a>
+                <Link className="go-home" to="/">Home</Link>
+                <Link className="create-post" to="/create">New Post</Link>
             </div>
         </nav>
     )

@@ -58,6 +58,13 @@
 .blog {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  color: #4A455E;
+}
+
+.blog > a {
+  display: flex;
+  justify-content: space-between;
   padding: 20px 30px;
   border-bottom: 1px solid #f2f2f2;
   align-items: center;
@@ -96,6 +103,7 @@
 
 .blog-title-and-author {
   text-align: left;
+  width: 150px;
 }
 
 button {
