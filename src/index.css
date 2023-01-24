@@ -29,7 +29,7 @@
 }
 
 .content {
-  max-width: 450px;
+  max-width: 600px;
   margin: 40px auto;
   padding: 10px;
 }
@@ -63,11 +63,11 @@
   justify-content: space-between;
   align-items: center;
   color: #4A455E;
-  border-bottom: 1px solid #857ea047;
 }
 
 .blog > a {
   display: flex;
+  width: 500px;
   justify-content: space-between;
   padding: 20px 30px;
   align-items: center;
@@ -98,7 +98,8 @@
 .blog-preview {
   font-weight: 400;
   font-size: 18px;
-  max-width: 150px;
+  width: 150px;
+  text-align: left;
 }
 
 .lucky-num {
@@ -133,10 +134,22 @@ button:hover {
   display: block;
 }
 
-.create h2 {
-  font-size: 20px;
+.create h2, article h2 {
+  font-size: 25px;
   color: #4A455E;
   margin-bottom: 30px;
+}
+
+article p {
+  color: #857EA0;
+  font-size: 13px;
+  margin: -23px 0 20px 0;
+}
+
+article div {
+  margin-bottom: 30px;
+  color: #4A455E;
+
 }
 
 .create input, .create textarea {
@@ -161,4 +174,17 @@ button:hover {
 
 .delete-btn {
   margin: 0 10px 0 0;
+}
+
+.not-found {
+  text-align: center;
+  color:#4A455E;
+}
+
+.not-found a {
+  color: #4A455E;
+}
+
+.not-found a:hover {
+  color: #857EA0;
 }

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
 export default function Blog({title, author, id, content}) {
+    let contentPreview = [...content.split(' ').slice(0, 5).join(' '), '...']
 
     return(
         <div className="blog">
@@ -14,7 +15,7 @@ export default function Blog({title, author, id, content}) {
             </div>
             </div>
             <div className="blog-preview">
-                {content}
+                {contentPreview}
             </div>
             </Link>
         </div>

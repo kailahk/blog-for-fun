@@ -1,28 +1,10 @@
 {
   "blogs": [
     {
-      "title": "first blog",
-      "content": "lorem ipsum...",
-      "author": "name",
+      "title": "Embracing the Fun of Working with React",
+      "content": "Embracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with ReactEmbracing the Fun of Working with React",
+      "author": "Kailah",
       "id": 1
-    },
-    {
-      "title": "second blog",
-      "content": "lorem ipsum...",
-      "author": "name",
-      "id": 2
-    },
-    {
-      "title": "third blog",
-      "content": "lorem ipsum...",
-      "author": "name",
-      "id": 3
-    },
-    {
-      "title": "hi`",
-      "content": "testtest",
-      "author": "kailahk",
-      "id": 5
     }
   ]
 }
