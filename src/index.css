@@ -116,3 +116,34 @@ button {
 button:hover {
   transform: scale(1.1)
 }
+
+.create {
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 20px;
+  color: #4A455E;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #857EA0;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 8px;
+}
+
+.create textarea {
+  height: 250px
+}
